@@ -46,7 +46,7 @@ const Form = () => {
   return (
     <div
       style={{ boxShadow: "0px 16px 50px #C7C7C75F" }}
-      className="bg-white m-4  lg:sticky lg:top-20 relative top-[950px] pt-8 p-10 mt-4 max-w-[550px] lg:float-right xl:right-20"
+      className="bg-white m-4  lg:sticky lg:top-20 relative top-[900px] pt-8 p-10 mt-4 max-w-[550px] lg:float-right xl:right-20"
     >
       <div className="lg:flex lg:gap-6">
         <div className="">

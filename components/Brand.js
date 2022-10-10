@@ -7,8 +7,8 @@ import brand4 from "../public/brand4.jpg";
 import brand5 from "../public/brand5.jpg";
 import brand6 from "../public/brand6.jpg";
 import brand7 from "../public/brand7.jpg";
-import brand8 from "../public/brand8.PNG";
-import brand9 from "../public/brand9.PNG";
+import brand8 from "../public/brand8.jpg";
+import brand9 from "../public/brand9.jpg";
 const Brand = () => {
   return (
     <div className="">

@@ -1,7 +1,7 @@
 // import bg from "../public/bg.jpg";
 import Head from "next/head";
 import Image from "next/image";
-import nav from "../public/nav.PNG";
+import nav from "../public/nav.jpg";
 import bg from "../public/bg.jpg";
 import brandbg from "../public/brandbg.jpg";
 import logo from "../public/logo.jpg";
