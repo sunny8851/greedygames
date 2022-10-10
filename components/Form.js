@@ -50,7 +50,7 @@ const Form = () => {
         // borderRadius: "0 5px 0 0",
         borderRadius: "13px",
       }}
-      className="bg-white mt-2 m-4  lg:sticky lg:top-[68px] relative top-[900px] pt-6 p-8  max-w-[550px] lg:float-right xl:right-20"
+      className="bg-white mt-2 m-4  lg:sticky lg:top-[80px] relative top-[900px] pt-10 p-10  max-w-[550px] lg:float-right xl:right-20"
     >
       <div className="lg:flex lg:gap-6">
         <div className="">
@@ -123,7 +123,7 @@ const Form = () => {
       </div>
       <button
         onClick={handleSubmit}
-        className="w-full bg-[#126FED] mt-12 text-white p-2 mb-2"
+        className="w-full bg-[#126FED] mt-20 text-white p-2 mb-2"
       >
         Get Started
       </button>

@@ -10,7 +10,7 @@ const TopBrand = () => {
         backgroundRepeat: "no-repeat",
         backgroundImage: `url(${brandbg.src})`,
       }}
-      className="py-4 md:pl-16 mt-[1000px] lg:mt-[700px]  text  text-white"
+      className="py-4 md:pl-16 mt-[980px] lg:mt-[700px]  text  text-white"
     >
       <div className="grid md:grid-cols-4 gap-2 grid-cols-2 items-center md:pt-12 max-w-[550px]">
         <div className="text-center mt-2 ml-3">
