@@ -1,8 +1,9 @@
 import styles from "../styles/Home.module.css";
-import Top from "../components/Top";
-import Brand from "../components/Brand";
-import TopBrand from "../components/TopBrand";
-import Form from "../components/Form";
+import { lazy } from "react";
+const Form = lazy(() => import("../components/Form"));
+const Brand = lazy(() => import("../components/Brand"));
+const Top = lazy(() => import("../components/Top"));
+const TopBrand = lazy(() => import("../components/TopBrand"));
 export default function Home() {
   return (
     <div className="xl:mx-24">
