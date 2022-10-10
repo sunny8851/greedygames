@@ -70,7 +70,7 @@ const Brand = () => {
           deliver results.
         </p>
       </div>
-      <h1 className="md:pl-16 pl-2 mt-2 ">
+      <h1 className="md:pl-16 pl-2 mt-2 font-medium">
         ©2022 GreedyGame, Inc. All rights reserved.
       </h1>
     </div>

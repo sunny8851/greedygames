@@ -45,8 +45,12 @@ const Form = () => {
   };
   return (
     <div
-      style={{ boxShadow: "0px 16px 50px #C7C7C75F" }}
-      className="bg-white m-4  lg:sticky lg:top-20 relative top-[900px] pt-8 p-10 mt-4 max-w-[550px] lg:float-right xl:right-20"
+      style={{
+        boxShadow: "0px 16px 50px #C7C7C75F",
+        // borderRadius: "0 5px 0 0",
+        borderRadius: "13px",
+      }}
+      className="bg-white mt-2 m-4  lg:sticky lg:top-[68px] relative top-[900px] pt-6 p-8  max-w-[550px] lg:float-right xl:right-20"
     >
       <div className="lg:flex lg:gap-6">
         <div className="">
@@ -69,9 +73,9 @@ const Form = () => {
             value={formValues.email}
             onChange={handleChange}
             name="email"
-            style={{ border: "1px solid #0F1B4D0F", borderRadius: "4px" }}
+            style={{ border: "1px solid #0F1B4D0F" }}
             placeholder="Enter your Email Address"
-            className="p-1 w-full lg:w-52 mt-1 bg-[#F9FAFE]"
+            className="p-1  w-full lg:w-52 mt-1 bg-[#F9FAFE]"
           ></input>
           <p className="text-red-600">{formErrors.email}</p>
         </div>
@@ -119,11 +123,11 @@ const Form = () => {
       </div>
       <button
         onClick={handleSubmit}
-        className="w-full bg-[#126FED] mt-20 text-white p-2 mb-2"
+        className="w-full bg-[#126FED] mt-12 text-white p-2 mb-2"
       >
         Get Started
       </button>
-      <p className="text-xs">
+      <p className="text-xs font-medium">
         By signing up, you agree to our{" "}
         <span className="text-blue-700 cursor-pointer">Terms</span> and{" "}
         <span className="text-blue-700 cursor-pointer">Privacy Policy</span>
